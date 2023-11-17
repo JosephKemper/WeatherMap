@@ -1,20 +1,15 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+My initial goal for creating this project was simply to showcase both what I can learn and what I am capable of. As I started to create the idea for what I wanted to do, I realized that I could easily use it to help better plan a trip I will be taking in December 2023. I will be traveling to Idaho in December to graduate and having a dedicated weather app to use for the whole area between where I live and Idaho would be nice. So, the big goal of this project is to help better plan my trip as well. 
 
-{Provide a description the map software that you wrote. Describe how to use your software.  Describe the source of the data that you used.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+{Insert tools here}
 
-{Describe the programming language that you used and any libraries.}
+{insert languages here}
 
 # Useful Websites
 
