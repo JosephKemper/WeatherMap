@@ -13,7 +13,10 @@ My initial goal for creating this project was simply to showcase both what I can
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+* [ArcGIS Maps SDK for JavaScript Official Site](https://developers.arcgis.com/javascript/latest/)
+* [YouTube ArcGIS API for JavaScript: Getting Started with Web Development](https://www.youtube.com/watch?v=z9kIZjUjsZ4)
+* [Web Site Name](http://url.link.goes.here)
+* [Web Site Name](http://url.link.goes.here)
 * [Web Site Name](http://url.link.goes.here)
 * [Web Site Name](http://url.link.goes.here)
 
