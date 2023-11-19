@@ -7,9 +7,9 @@ My initial goal for creating this project was simply to showcase both what I can
 
 # Development Environment
 
-{Insert tools here}
-
-{insert languages here}
+- **Code Editor**: Visual Studio Code
+- **Programming Language**: JavaScript
+- **Module System**: ECMAScript (ES) Modules
 
 # Useful Websites
 
