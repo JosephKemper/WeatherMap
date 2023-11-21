@@ -7,22 +7,25 @@ My initial goal for creating this project was simply to showcase both what I can
 
 # Development Environment
 
-- **Code Editor**: Visual Studio Code
-- **Programming Language**: JavaScript
-- **Module System**: ECMAScript (ES) Modules
+- Visual Studio Code
+- JavaScript
+- ECMAScript (ES) Modules
+- Node.js
+- HTML
+- Global http-server
+- CSS
 
 # Useful Websites
 
 * [ArcGIS Maps SDK for JavaScript Official Site](https://developers.arcgis.com/javascript/latest/)
 * [YouTube ArcGIS API for JavaScript: Getting Started with Web Development](https://www.youtube.com/watch?v=z9kIZjUjsZ4)
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [YouTube ArcGIS API for JavaScript: Programming Patterns and API Fundamentals](https://www.youtube.com/watch?v=mA8uLu4-IcU)
+* [YouTube 2021 Esri Developer Summit Tech Sessions](https://www.youtube.com/playlist?list=PLaPDDLTCmy4btgVu7omfiaw6PhKUzyk0M)
 * [Web Site Name](http://url.link.goes.here)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Item 1
 * Item 2
 * Item 3
