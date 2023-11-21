@@ -20,7 +20,7 @@ My initial goal for creating this project was simply to showcase both what I can
 * [ArcGIS Maps SDK for JavaScript Official Site](https://developers.arcgis.com/javascript/latest/)
 * [YouTube ArcGIS API for JavaScript: Getting Started with Web Development](https://www.youtube.com/watch?v=z9kIZjUjsZ4)
 * [YouTube ArcGIS API for JavaScript: Programming Patterns and API Fundamentals](https://www.youtube.com/watch?v=mA8uLu4-IcU)
-* [Web Site Name](http://url.link.goes.here)
+* [YouTube 2021 Esri Developer Summit Tech Sessions](https://www.youtube.com/playlist?list=PLaPDDLTCmy4btgVu7omfiaw6PhKUzyk0M)
 * [Web Site Name](http://url.link.goes.here)
 * [Web Site Name](http://url.link.goes.here)
 
