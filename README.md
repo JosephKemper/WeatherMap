@@ -21,7 +21,7 @@ My initial goal for creating this project was simply to showcase both what I can
 * [YouTube ArcGIS API for JavaScript: Getting Started with Web Development](https://www.youtube.com/watch?v=z9kIZjUjsZ4)
 * [YouTube ArcGIS API for JavaScript: Programming Patterns and API Fundamentals](https://www.youtube.com/watch?v=mA8uLu4-IcU)
 * [YouTube 2021 Esri Developer Summit Tech Sessions](https://www.youtube.com/playlist?list=PLaPDDLTCmy4btgVu7omfiaw6PhKUzyk0M)
-* [Web Site Name](http://url.link.goes.here)
+* [Oreilly Books Introducing ArcGIS API 4 for JavaScript: Turn Awesome Maps into Awesome Apps](https://learning.oreilly.com/library/view/introducing-arcgis-api/9781484232828/)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
