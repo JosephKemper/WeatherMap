@@ -24,6 +24,7 @@ My initial goal for creating this project was simply to showcase both what I can
 * [Oreilly Books Introducing ArcGIS API 4 for JavaScript: Turn Awesome Maps into Awesome Apps](https://learning.oreilly.com/library/view/introducing-arcgis-api/9781484232828/)
 * [Github Demo Project from Introducing ArcGIS API 4 for JavaScript book](https://github.com/odoe/esrijs4-ts-demo)
 * [Github Esri Developer Summit Presentations](https://github.com/annelfitz/DevSummit-presentations)
+* [YouTube Install and setup ESM with the ArcGIS API for JavaScript](https://www.youtube.com/watch?v=8RvdFCTPoPU)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
