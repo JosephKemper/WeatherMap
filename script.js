@@ -1,17 +1,17 @@
-// Default import
-import WebMap from "@arcgis/core/WebMap.js";
+import ArcGISMap from "@arcgis/core/Map"
+import MapView from "@arcgis/core/views/MapView";
 
-// Namespace import
-import * as projection from "@arcgis/core/geometry/projection.js";
-
-import Map from '@arcgis/core/Map.js';
-import MapView from '@arcgis/core/views/MapView.js';
-
-const map = new Map({
-  basemap: "topo-vector"
+const map = new ArcGISMap ({
+    basemap: "topo"
 });
 
-const view = new MapView({
-  container: "viewDiv",
-  map: map
+const view = new MapView ({
+    map,
+    container: "viewDiv",
+    center: [-118, 34],
+    zoom: 8
+});
+
+view.when(()=>{
+    console.log("view ready");
 });
