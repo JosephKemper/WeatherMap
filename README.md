@@ -13,7 +13,9 @@ My initial goal for creating this project was simply to showcase both what I can
 - Node.js
 - HTML
 - Global http-server
-- CSS
+- ArcGIS JavaScript API
+- National Weather Service API
+- Fetch API
 
 # Useful Websites
 
@@ -28,12 +30,11 @@ My initial goal for creating this project was simply to showcase both what I can
 * [ArcGIS Developers Install and set up](https://developers.arcgis.com/javascript/latest/install-and-set-up/)
 * [ArcGIS Developers Display a map](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/)
 * [ArcGIS Developer Add a point, line, and polygon](https://developers.arcgis.com/javascript/latest/tutorials/add-a-point-line-and-polygon/)
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [ArcGIS Developer Weather](https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-Weather.html)
 
 # Future Work
 
-* Item 1
-* Item 2
-* Item 3
+* Allow for custom starting points
+* Allow for custom destinations
+* Automatically find major landmarks along the way
+* Get weather info for the landmarks that were found. 

@@ -182,32 +182,44 @@ require([
     
     // Loop through the points of interest
     pointsOfInterest.forEach(function(poi) {
-        // Create a point geometry for the point of interest
-        const point = {
-            type: "point",
-            longitude: poi.longitude,
-            latitude: poi.latitude
-        };
+        // Fetch grid data for the point of interest
+        fetch(`https://api.weather.gov/points/${poi.latitude},${poi.longitude}`)
+            .then(response => response.json())
+            .then(data => {
+                // Fetch weather data for the point of interest
+                return fetch(data.properties.forecast);
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Define the attributes for the point of interest
+                const attributes = {
+                    Name: poi.name,
+                    Description: poi.description,
+                    Weather: `${data.properties.periods[0].shortForecast}, 
+                    ${data.properties.periods[0].temperature}°${data.properties.periods[0].temperatureUnit}`
+                };
         
-        // Define the attributes for the point of interest
-        const attributes = {
-            Name: poi.name,
-            Description: poi.description
-        };
+                // Define the popup template for the point of interest
+                const popupTemplate = {
+                    title: "{Name}", // Set the title of the popup to the name of the point of interest
+                    // Set the content of the popup to the description of the point of interest and the current weather
+                    content: "{Description}<br>Current Weather: {Weather}" 
+                };
+
+                const point = {
+                    type: "point",
+                    longitude: poi.longitude,
+                    latitude: poi.latitude
+                };
         
-        // Define the popup template for the point of interest
-        const popupTemplate = {
-            title: "{Name}", // Set the title of the popup to the name of the point of interest
-            content: "{Description}" // Set the content of the popup to the description of the point of interest
-        };
-        
-        // Create a new Graphic instance for the point of interest
-        const pointGraphic = new Graphic({
-            geometry: point, // Set the geometry of the Graphic to the point
-            symbol: simpleMarkerSymbol, // Set the symbol of the Graphic to the simpleMarkerSymbol
-            attributes: attributes, // Set the attributes of the Graphic to the attributes
-            popupTemplate: popupTemplate // Set the popupTemplate of the Graphic to the popupTemplate
-        });
-        graphicsLayer.add(pointGraphic); // Add the Graphic to the GraphicsLayer
-    });
+                // Create a new Graphic instance for the point of interest
+                const pointGraphic = new Graphic({
+                    geometry: point, // Set the geometry of the Graphic to the point
+                    symbol: simpleMarkerSymbol, // Set the symbol of the Graphic to the simpleMarkerSymbol
+                    attributes: attributes, // Set the attributes of the Graphic to the attributes
+                    popupTemplate: popupTemplate // Set the popupTemplate of the Graphic to the popupTemplate
+                });
+                graphicsLayer.add(pointGraphic); // Add the Graphic to the GraphicsLayer
+            });
+    }); 
 });
