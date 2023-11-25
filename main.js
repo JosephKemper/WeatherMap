@@ -46,7 +46,138 @@ require([
             longitude: -111.655, // Set the longitude of the point of interest
             latitude: 40.258 // Set the latitude of the point of interest
         },
-        // Add more points of interest here...
+        {
+            name: "Orem Utah Temple",
+            description: "Public Open House underway", 
+            longitude: -111.71931, 
+            latitude:  40.2708
+        },
+        {
+            name: "Lindon Utah Temple",
+            description: "Under Construction", 
+            longitude: -111.7136112, 
+            latitude:  40.343056
+        },
+        {
+            name: "Mount Timpanogos Utah Temple",
+            description: "49th temple dedicated", 
+            longitude: -111.639779, 
+            latitude: 40.263666 
+        },
+        {
+            name: "Draper Utah Temple",
+            description: "129th Dedicated Temple", 
+            longitude: -111.840542, 
+            latitude: 40.495533 
+        },
+        {
+            name: "Oquirrh Mountain Utah Temple",
+            description: "130th Dedicated Temple", 
+            longitude:  -111.987510, 
+            latitude: 40.551145 
+        },
+        {
+            name: "Taylorsville Utah Temple",
+            description: "Major Construction completed", 
+            longitude: -111.954167, 
+            latitude: 40.666944 
+        },
+        {
+            name: "Salt Lake Temple",
+            description: "4th Dedicated Temple", 
+            longitude: -111.891944, 
+            latitude: 40.770556 
+        },
+        {
+            name: "Bountiful Utah Temple",
+            description: "47th Dedicated Temple", 
+            longitude: -111.846812, 
+            latitude: 40.882853 
+        },
+        {
+            name: "Layton Utah Temple",
+            description: "Major Construction Finished", 
+            longitude: -111.940251, 
+            latitude: 41.062232 
+        },
+        {
+            name: "Jordan River Utah Temple",
+            description: "20th dedicated temple", 
+            longitude: -111.931532, 
+            latitude: 40.566135
+        },
+        {
+            name: "Syracuse Utah Temple",
+            description: "Under Construction", 
+            longitude: -112.075833, 
+            latitude:  41.099167
+        },
+        {
+            name: "Ogden Utah Temple",
+            description: "14th Dedicated Temple", 
+            longitude: -111.976111, 
+            latitude:  41.226111
+        },
+        {
+            name: "Brigham City Utah Temple",
+            description: "139th Dedicated Temple", 
+            longitude: -112.022222, 
+            latitude:  41.500833
+        },
+        {
+            name: "Logan Utah Temple",
+            description: "2nd Dedicated Temple", 
+            longitude: -111.843889, 
+            latitude:  41.734167
+        },
+        {
+            name: "Smithfield Utah Temple",
+            description: "Under Construction", 
+            longitude: -111.833333, 
+            latitude:  41.844167
+        },
+        {
+            name: "Pocatello Idaho Temple",
+            description: "170th Dedicated Temple", 
+            longitude: -112.406389, 
+            latitude:  42.915278
+        },
+        {
+            name: "Idaho Falls Idaho Temple",
+            description: "8th Dedicated Temple", 
+            longitude: -112.041500, 
+            latitude:  43.499817
+        },
+        {
+            name: "Rexburg Idaho Temple",
+            description: "125th Dedicated Temple", 
+            longitude: -111.779088, 
+            latitude: 43.810709
+        },
+        {
+            name: "The Point of the Mountain",
+            description: "This is where I-15 crosses the Traverse Mountains between Salt Lake and Utah counties.", 
+            longitude: -106.4453331, 
+            latitude:  "40.117750"
+        },
+        {
+            name: "Weber Canyon",
+            description: "North of Salt Lake City, I-15 crosses the Wasatch Mountains through Weber Canyon.", 
+            longitude: -111.90232, 
+            latitude:  41.1348
+        },
+        {
+            name: "Malad Summit",
+            description: "Located in Oneida County, Idaho, this pass is at an elevation of 6,129 feet (1,868 m).", 
+            longitude: -112.2758343, 
+            latitude:  42.350278
+        },
+        {
+            name: "Monida Pass",
+            description: "This pass is located on the border of Idaho and Montana.", 
+            longitude: -112.3055084, 
+            latitude: 44.558338
+        }
     ];
     
     // Loop through the points of interest
