@@ -149,11 +149,6 @@ require([
             name: "Malad Summit",
             longitude: -112.2758343, 
             latitude:  42.350278
-        },
-        {
-            name: "Monida Pass",
-            longitude: -112.3055084, 
-            latitude: 44.558338
         }
     ];
     
@@ -179,7 +174,6 @@ pointsOfInterest.forEach(function(poi) {
             // Define the attributes for the point of interest
             const attributes = {
                 Name: poi.name,
-                Description: poi.description,
                 Forecast: data.forecastData.properties.periods.map(period => `${period.name}: ${period.shortForecast}, ${period.temperature}°${period.temperatureUnit}`).join('<br>'),
                 Alerts: data.alertData.features.length > 0 ? data.alertData.features.map(feature => feature.properties.headline).join('<br>') : 'No alerts'
 
@@ -188,7 +182,7 @@ pointsOfInterest.forEach(function(poi) {
             // Define the popup template for the point of interest
             const popupTemplate = {
                 title: "{Name}", // Set the title of the popup to the name of the point of interest
-                content: "{Description}<br>7-Day Forecast:<br>{Forecast}<br>Alerts:<br>{Alerts}" // Set the content of the popup to the description of the point of interest, the 7-day forecast, and the alerts
+                content: "7-Day Forecast:<br>{Forecast}<br>Alerts:<br>{Alerts}" // Set the content of the popup to the description of the point of interest, the 7-day forecast, and the alerts
             };
 
                 const point = {
