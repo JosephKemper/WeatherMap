@@ -25,6 +25,11 @@ My initial goal for creating this project was simply to showcase both what I can
 * [Github Demo Project from Introducing ArcGIS API 4 for JavaScript book](https://github.com/odoe/esrijs4-ts-demo)
 * [Github Esri Developer Summit Presentations](https://github.com/annelfitz/DevSummit-presentations)
 * [YouTube Install and setup ESM with the ArcGIS API for JavaScript](https://www.youtube.com/watch?v=8RvdFCTPoPU)
+* [ArcGIS Developers Install and set up](https://developers.arcgis.com/javascript/latest/install-and-set-up/)
+* [ArcGIS Developers Display a map](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/)
+* [ArcGIS Developer Add a point, line, and polygon](https://developers.arcgis.com/javascript/latest/tutorials/add-a-point-line-and-polygon/)
+* [Web Site Name](http://url.link.goes.here)
+* [Web Site Name](http://url.link.goes.here)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
