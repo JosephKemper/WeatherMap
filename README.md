@@ -1,9 +1,9 @@
 # Overview
 
-My initial goal for creating this project was simply to showcase both what I can learn and what I am capable of. As I started to create the idea for what I wanted to do, I realized that I could easily use it to help better plan a trip I will be taking in December 2023. I will be traveling to Idaho in December to graduate and having a dedicated weather app to use for the whole area between where I live and Idaho would be nice. So, the big goal of this project is to help better plan my trip as well. 
+This project provides the foundation for a weather and travel map that will help you plan for longer trips. In this case it pulls from major landmarks along the path and then gets the current weather from the National Weather Service for each selected landmark along the path, and displays the 7-day forecast and any weather alerts for the area around the landmark. 
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/i-NRzqq_1S8)
 
 # Development Environment
 
@@ -13,7 +13,9 @@ My initial goal for creating this project was simply to showcase both what I can
 - Node.js
 - HTML
 - Global http-server
-- CSS
+- ArcGIS JavaScript API
+- National Weather Service API
+- Fetch API
 
 # Useful Websites
 
@@ -28,12 +30,12 @@ My initial goal for creating this project was simply to showcase both what I can
 * [ArcGIS Developers Install and set up](https://developers.arcgis.com/javascript/latest/install-and-set-up/)
 * [ArcGIS Developers Display a map](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/)
 * [ArcGIS Developer Add a point, line, and polygon](https://developers.arcgis.com/javascript/latest/tutorials/add-a-point-line-and-polygon/)
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [ArcGIS Developer Weather](https://developers.arcgis.com/javascript/latest/api-reference/esri-widgets-Weather.html)
 
 # Future Work
 
-* Item 1
-* Item 2
-* Item 3
+* Allow for custom starting points
+* Allow for custom destinations
+* Find routs to and from the destination
+* Automatically find major landmarks along the way
+* Get weather info for the landmarks that were found. 
